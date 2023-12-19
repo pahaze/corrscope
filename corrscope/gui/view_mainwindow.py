@@ -188,7 +188,7 @@ class MainWindow(QWidget):
                     )
 
                 with add_row(s, "", BoundDoubleSpinBox) as self.render__line_width:
-                    self.render__line_width.setMinimum(0.5)
+                    self.render__line_width.setMinimum(0)
                     self.render__line_width.setSingleStep(0.5)
 
                 with add_row(
